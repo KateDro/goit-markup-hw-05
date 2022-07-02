@@ -73,7 +73,9 @@
         <div class="container cont-banner">
           <h1 class="banner-title">Эффективные решения для Вашего бизнеса</h1>
           <!-- BUTTON -->
-          <button class="btn" type="button">Заказать услугу</button>
+          <button class="btn" type="button" data-modal-open>
+            Заказать услугу
+          </button>
         </div>
       </section>
       <!-- studio skills -->
@@ -635,11 +637,11 @@
       </div>
     </footer>
     <!-- MODAL WINDOW -->
-    <div class="modal-backdrop">
-      <div class="modal-win">
-        <button class="modal-btn-close" type="button">
-          <svg width="11" height="11">
-            <use href="./images/img-icons/original/close-mod-win.svg"></use>
+    <div class="modal-backdrop is-hidden">
+      <div class="modal-win data-modal">
+        <button class="modal-btn-close" type="button" data-modal-close>
+          <svg width="18" height="18">
+            <use href="./images/img-icons/icons.svg#icon-modal-close"></use>
           </svg>
         </button>
       </div>

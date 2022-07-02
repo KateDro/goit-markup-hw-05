@@ -567,9 +567,24 @@ footer {
   transform: translate(-50%, -50%) scale(1);
   width: 528px;
   height: 581px;
-  background: var(--primary-bgr-color);
+  background: var(--white-clr);
   box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
     0px 2px 1px rgb(0 0 0 / 20%);
   border-radius: 4px;
   transition: transform 250ms var(--transition-timing-func);
+}
+.modal-btn-close {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: color 250ms var(--transition-timing-func);
+  fill: currentColor;
 }

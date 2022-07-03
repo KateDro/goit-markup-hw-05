@@ -200,6 +200,7 @@ img {
   padding: 10px 32px;
   margin-top: 30px;
   border: none;
+  transition: color 250ms var(--transition-timing-func);
 }
 .banner-main {
   font-family: var(--main-font);
@@ -597,4 +598,5 @@ footer {
   transition: color 250ms var(--transition-timing-func);
   fill: currentColor;
   cursor: pointer;
+  background-color: var(--white-clr);
 }
